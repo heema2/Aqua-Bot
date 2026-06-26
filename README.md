@@ -16,7 +16,7 @@
   &nbsp;•&nbsp;
   <a href="https://discord.gg/kKaSX5QJwa"><strong>💬 Support Server</strong></a>
   &nbsp;•&nbsp;
-  <a href="YOUR_DASHBOARD_URL/login"><strong>🛠️ Dashboard</strong></a>
+  <a href="https://www.aqua-bot.xyz/login"><strong>🛠️ Dashboard</strong></a>
 </p>
 
 ---
@@ -28,17 +28,15 @@
 | | |
 |---|---|
 | ➕ **Invite the bot** | https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands |
-| 🛠️ **Web dashboard** | `YOUR_DASHBOARD_URL/login` |
-| 🌐 **Website** | `YOUR_DASHBOARD_URL` |
-| 📜 **Commands** | `YOUR_DASHBOARD_URL/commands` |
-| 📊 **Status** | `YOUR_DASHBOARD_URL/status` |
-| 🏠 **Servers** | `YOUR_DASHBOARD_URL/servers` |
+| 🛠️ **Web dashboard** | https://www.aqua-bot.xyz/login |
+| 🌐 **Website** | https://www.aqua-bot.xyz |
+| 📜 **Commands** | https://www.aqua-bot.xyz/commands |
+| 📊 **Status** | https://www.aqua-bot.xyz/status |
+| 🏠 **Servers** | https://www.aqua-bot.xyz/servers |
 | 💬 **Support server** | https://discord.gg/kKaSX5QJwa |
-| ✉️ **Contact** | heemaquick@outlook.com |
-| 🔒 **Privacy** | `YOUR_DASHBOARD_URL/privacy` |
-| 📋 **Terms** | `YOUR_DASHBOARD_URL/terms` |
-
-Replace `YOUR_DASHBOARD_URL` with your live dashboard domain (e.g. `https://aquabot.example.com`).
+| ✉️ **Contact** | aqua-bot@outlook.com |
+| 🔒 **Privacy** | https://www.aqua-bot.xyz/privacy |
+| 📋 **Terms** | https://www.aqua-bot.xyz/terms |
 
 ---
 
@@ -120,7 +118,7 @@ The invite link requests only what Aqua Bot needs to function — manage message
 ## Support & contact
 
 - **Discord support:** [Aqua's Support Server](https://discord.gg/kKaSX5QJwa)
-- **Email:** heemaquick@outlook.com
+- **Email:** aqua-bot@outlook.com
 - **Operator:** Ryuk Developments
 
 For bugs, feature requests, or setup help, please use the support server.
@@ -129,8 +127,8 @@ For bugs, feature requests, or setup help, please use the support server.
 
 ## Legal
 
-- Privacy Policy: `YOUR_DASHBOARD_URL/privacy`
-- Terms of Use: `YOUR_DASHBOARD_URL/terms`
+- Privacy Policy: https://www.aqua-bot.xyz/privacy
+- Terms of Use: https://www.aqua-bot.xyz/terms
 
 Aqua Bot is not affiliated with Discord Inc.
 
