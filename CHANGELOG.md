@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.42] — 2026-07-05
+
+### Fixed
+- **Announcements** dashboard button emojis no longer fail with Discord `Invalid Form Body` — unicode emojis are sent in the correct object format for the REST API
+
+---
+
 ## [1.2.41] — 2026-07-05
 
 ### Fixed
