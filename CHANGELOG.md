@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.43] — 2026-07-05
+
+### Added
+- **Announcements** dashboard — remove sent announcements from the list without deleting the Discord message
+
+---
+
 ## [1.2.42] — 2026-07-05
 
 ### Fixed
