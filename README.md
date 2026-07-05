@@ -145,15 +145,6 @@ The Aqua Bot dashboard gives server admins a **clean, dark-themed interface** to
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Executive admin panel** (operators only):
-
-- Homepage CMS — hero, features, and site copy
-- Server & user management
-- **Blacklist servers** — instant bot leave + notice embed
-- **Blacklist users** — block commands and dashboard access
-- Update broadcasts to all servers
-- Listed servers curation
-
 ---
 
 ## 🏁 Getting started
@@ -182,13 +173,11 @@ flowchart LR
 
 <br />
 
-- **Immediate server blacklist enforcement** — bot sends notice and leaves instantly when a server is blacklisted while the bot is present
-- **Sync alert after ban lift** — dashboard shows **Sync Required** when a server is removed from the blacklist so admins can re-sync commands
-- **Bot presence detection fix** — admin panel correctly shows whether the bot is in a server
-- **Account blacklist logout** — blacklisted users can log out and return to the homepage
-- **User blacklist system** — block dashboard access and slash commands with appeal flow
-- **Executive blacklist tabs** — paginated server & user blacklist management
-- **Logout confirmation** — "Are you sure?" prompt before signing out
+- **Sync Required banner** on all server dashboard pages when commands need updating
+- **Improved rejoin flow** — clearer prompts to sync commands after the bot returns to a server
+- **Logout confirmation** before signing out of the dashboard
+- **Homepage layout** — cleaner 3×3 features grid before "Show more"
+- General stability and dashboard improvements
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 
@@ -215,8 +204,7 @@ The invite link requests only what Aqua Bot needs to function:
 | **Bot** | Node.js 20+, Discord.js v14, slash commands |
 | **Dashboard** | Next.js 14, React 18, Tailwind CSS |
 | **API** | Node.js REST API with Discord OAuth2 |
-| **Storage** | Per-guild JSON (MongoDB optional) |
-| **Process manager** | PM2 (production) |
+| **Commands** | Discord slash commands |
 
 *This repo does not include source code — it is a public information hub.*
 
