@@ -4,6 +4,21 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.45] — 2026-07-05
+
+### Added
+- **Giveaways** — Giveaway Boat–style embeds with prize title, extra entries per role, and requirements block
+- **Giveaways** — Required role, blacklist roles, bonus entries per role, and require server tag option
+- **Giveaways** — Participants button with paginated ephemeral list in Discord
+- **Giveaways** — Weighted entry counts (bonus roles grant extra tickets)
+- **Giveaways** — Entry confirmation embed; expired giveaways auto-end on bot restart
+
+### Improved
+- **Giveaways** — `/giveaway pause` and `/giveaway resume` now update the Discord message
+- **Giveaways** — Dashboard form for all new giveaway options
+
+---
+
 ## [1.2.44] — 2026-07-05
 
 ### Added
