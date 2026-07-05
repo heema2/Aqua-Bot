@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.44] — 2026-07-05
+
+### Added
+- **Announcements** dashboard paginates sent announcements (10 per page) when the list grows large
+
+---
+
 ## [1.2.43] — 2026-07-05
 
 ### Added
