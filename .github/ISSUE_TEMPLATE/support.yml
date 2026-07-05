@@ -16,3 +16,10 @@ body:
         - Feature requests
 
         You can also reach us through the contact options on [aqua-bot.xyz](https://www.aqua-bot.xyz).
+  - type: checkboxes
+    id: acknowledge
+    attributes:
+      label: Before continuing
+      options:
+        - label: I understand that support is handled on Discord and I will join the support server for help
+          required: true
