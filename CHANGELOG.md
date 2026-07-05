@@ -4,6 +4,19 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.38] — 2026-07-05
+
+### Added
+- **Announcements** dashboard section — send text or embed announcements with buttons, select menus, channel picker, and mention options (@everyone, @here, role, or none)
+- Sent announcements appear in history and can be edited while the Discord message still exists
+- Permission checks before send (Mention Everyone, Send Messages, Embed Links) with clear dashboard errors
+
+### Fixed
+- Welcome module label is now **Welcome** only (no longer combined with Announcements)
+- `/announce` command is tied to the new **Announcements** module
+
+---
+
 ## [1.2.37] — 2026-07-05
 
 ### Added
