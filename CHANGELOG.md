@@ -4,6 +4,19 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.33] — 2026-07-05
+
+### Improved
+- **Leveling**, **Auto Translate**, and **Scheduled Messages** now use the same full-page editor UI as Auto Responder, Welcome, and Tickets
+- Level-up message editor opens on its own page with embed colors, links, and images preserved on save
+- Auto Translate **send** and **edit tracked message** flows use dedicated editors instead of inline forms
+- Scheduled Messages support rich embed editing (colors, images, fields) with full-page create and edit views
+
+### Added
+- Scheduled messages can use **text or embed** content from the dashboard (legacy title/description schedules still work)
+
+---
+
 ## [1.2.32] — 2026-07-05
 
 ### Improved
