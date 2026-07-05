@@ -4,6 +4,19 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.37] — 2026-07-05
+
+### Added
+- **Auto Responder** optional **buttons** and **select menu** on message/embed responses — toggle on in the editor, full validation before save, all fields preserved when re-editing
+- **Scheduled Messages** **Start** button on dashboard — new schedules are created stopped; click Start (or `/scheduled-message start`) to activate posting
+
+### Fixed
+- Scheduled messages from the dashboard now **save immediately** when added, edited, started, stopped, or deleted — the bot reads them without requiring a separate page save
+- Bot scheduled-message processor now checks the **module enabled** state correctly
+- `/scheduled-message list` shows all saved schedules including stopped ones
+
+---
+
 ## [1.2.36] — 2026-07-05
 
 ### Fixed

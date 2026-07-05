@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.36-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.37-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -170,13 +170,13 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.36</strong></summary>
+<summary><strong>Latest — v1.2.37</strong></summary>
 
 <br />
 
-- **Scheduled Messages** — flexible intervals (`30 sec`, `10 seconds`, `1 hour`, `2 days`, etc.)
-- Clearer schedule editor with examples and aligned repeat-count field
-- Auto Responder module toggle fix (v1.2.35)
+- **Auto Responder** — optional buttons and select menu on responses (validated, preserved on edit)
+- **Scheduled Messages** — Start button, immediate save to bot, `/scheduled-message start` command
+- Schedules created stopped until you explicitly start them
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 
