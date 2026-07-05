@@ -4,6 +4,18 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.36] — 2026-07-05
+
+### Fixed
+- **Scheduled Messages** interval field now accepts flexible formats: `30s`, `30 sec`, `10 seconds`, `5 minutes`, `1 hour`, `2 days`, and more
+- Repeat count field aligned with interval field (hint moved below input)
+
+### Improved
+- Schedule editor shows supported time units, examples, and quick-fill chips for common intervals
+- Schedule list displays human-readable intervals (e.g. “every 30 seconds”)
+
+---
+
 ## [1.2.35] — 2026-07-05
 
 ### Fixed
