@@ -4,6 +4,16 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.51] — 2026-07-05
+
+### Improved
+- **Booster Thanks** — live Discord preview beside settings; optional embed image URL and custom embed title
+- **Invite Tracker** — customizable join/leave messages (text or embed) with live preview and variables
+- **Stream Alerts** — separated notification channels, tracked creators, and per-platform message editors; text or embed prefix with role mentions
+- **Giveaways** — prize quick-picks ($10, $50, $100, Premium Package, Battle Pass)
+
+---
+
 ## [1.2.50] — 2026-07-05
 
 ### Improved
