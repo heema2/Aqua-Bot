@@ -4,6 +4,42 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.26] — 2026-07-05
+
+### Fixed
+- Dashboard **Sync** no longer gets stuck on "Syncing…" when Discord is slow or rate-limited
+- Clearer error messages when command sync fails (wait and retry instead of a generic error)
+
+### Improved
+- Command sync is faster and more reliable when updating multiple servers
+
+---
+
+## [1.2.25] — 2026-07-05
+
+### Improved
+- Bug reports from the dashboard now share the same **1-hour cooldown** as the `/report-bug` slash command
+
+---
+
+## [1.2.24] — 2026-07-05
+
+### Improved
+- **Sync Required** badge on the dashboard home page for servers that need a command sync
+- Sticky sync banner across all server dashboard pages
+- Sync banner restored on the **Commands** page
+
+---
+
+## [1.2.23] — 2026-07-05
+
+### Added
+- **Report Bug** — new dashboard page under General to send bug reports to the Aqua Bot team
+- **`/report-bug`** slash command — report bugs directly from Discord (title, description, optional command/module)
+- Dashboard cooldown indicator so you know when you can submit another report
+
+---
+
 ## [1.2.22] — 2026-07-05
 
 ### Improved

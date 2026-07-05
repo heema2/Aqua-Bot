@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.22-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.26-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -125,6 +125,7 @@ Configure everything from a **clean, modern web dashboard** — enable modules, 
 | **Auto-delete & image-only** | Channel hygiene rules |
 | **Auto reaction** | Keyword reactions and announcement packs |
 | **Tags, polls, reminders, AFK** | Everyday server utilities |
+| **Bug reports** | Report issues from the dashboard or `/report-bug` in Discord |
 
 ---
 
@@ -169,15 +170,14 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.22</strong></summary>
+<summary><strong>Latest — v1.2.26</strong></summary>
 
 <br />
 
-- **Sync Required banner** on all server dashboard pages when commands need updating
-- **Improved rejoin flow** — clearer prompts to sync commands after the bot returns to a server
-- **Logout confirmation** before signing out of the dashboard
-- **Homepage layout** — cleaner 3×3 features grid before "Show more"
-- General stability and dashboard improvements
+- **Bug reports** — submit issues from the dashboard or with `/report-bug` in Discord (1-hour cooldown per account)
+- **Sync Required improvements** — clearer banner on dashboard home, server pages, and Commands tab
+- **Faster, more reliable command sync** — better handling when updating multiple servers
+- **Logout confirmation** and general dashboard stability improvements
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 
