@@ -4,6 +4,16 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.47] — 2026-07-05
+
+### Fixed
+- **Giveaways** dashboard edit no longer resets duration to 1h unless **Edit duration** is checked
+
+### Added
+- **Giveaways** — remove ended giveaways from the dashboard list (Discord message unchanged)
+
+---
+
 ## [1.2.46] — 2026-07-05
 
 ### Added
