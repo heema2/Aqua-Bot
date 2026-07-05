@@ -4,6 +4,15 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.52] — 2026-07-05
+
+### Improved
+- **Invite Tracker** — `{totalinvite}` and `{invitername}` variables; default join message shows inviter name and invite count
+- **Stream Alerts** — simplified text + role mention editor with live alert preview (no embed builder)
+- **Giveaways** — winner count quick-picks (1–10); optional ping winners above congratulations embed on end/reroll
+
+---
+
 ## [1.2.51] — 2026-07-05
 
 ### Improved
