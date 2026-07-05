@@ -4,6 +4,18 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.34] — 2026-07-05
+
+### Fixed
+- Level-up message editor now accepts **`{userAvatar}`** in the thumbnail URL field (and shows it in the variables list)
+
+### Improved
+- **Module enable/disable toggle** added at the top of every dashboard section page (Logging, Welcome, Auto Responder, Tags, Giveaways, Roles, Reaction Roles, Moderation, and more)
+- Consistent **“{Name} Module”** labeling across all section pages
+- Amber reminder when a module is **disabled** while editing, plus a notice after saving that settings won't take effect until the module is enabled
+
+---
+
 ## [1.2.33] — 2026-07-05
 
 ### Improved

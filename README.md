@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.33-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.34-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -170,13 +170,13 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.33</strong></summary>
+<summary><strong>Latest — v1.2.34</strong></summary>
 
 <br />
 
-- **Leveling**, **Auto Translate**, and **Scheduled Messages** — full-page editors matching Auto Responder / Welcome / Tickets
-- Level-up and scheduled message embeds keep colors, links, and images when you re-open the editor
-- Auto Translate send and edit tracked messages open in dedicated editors
+- **Module toggle on every section page** — enable or disable from Logging, Welcome, Auto Responder, and all other module settings
+- **Disabled-module reminders** when saving settings while a module is off
+- Level-up **`{userAvatar}`** thumbnail variable works again in the editor
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 
