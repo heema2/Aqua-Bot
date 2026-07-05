@@ -4,6 +4,14 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.49] — 2026-07-05
+
+### Improved
+- **Giveaways** dashboard — full-page create/edit editor (same pattern as auto responder and welcome)
+- **Giveaways** dashboard — redesigned active giveaway cards with live stats, status badges, and requirement chips
+
+---
+
 ## [1.2.48] — 2026-07-05
 
 ### Fixed
