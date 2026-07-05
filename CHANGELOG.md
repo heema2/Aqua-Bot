@@ -4,6 +4,14 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.50] — 2026-07-05
+
+### Improved
+- **Giveaways** dashboard — live Discord preview in the create/edit editor (embed, entry button, requirements)
+- **Giveaways** dashboard — main page shows **Start new giveaway** with separate active and ended sections; editor opens in full-page shell
+
+---
+
 ## [1.2.49] — 2026-07-05
 
 ### Improved
