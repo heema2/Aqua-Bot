@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.26-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.30-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -170,14 +170,16 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.26</strong></summary>
+<summary><strong>Latest — v1.2.30</strong></summary>
 
 <br />
 
-- **Bug reports** — submit issues from the dashboard or with `/report-bug` in Discord (1-hour cooldown per account)
-- **Sync Required improvements** — clearer banner on dashboard home, server pages, and Commands tab
-- **Faster, more reliable command sync** — better handling when updating multiple servers
-- **Logout confirmation** and general dashboard stability improvements
+- **Auto Responder redesign** — dedicated full-page editor for create, edit, and clone
+- **Clone** any response to copy settings and set a new trigger keyword
+- **Rename triggers** when editing an existing response
+- Triggers match with optional `?` or `/` before the keyword (e.g. `?web`, `/web`, `web`)
+- Channel restriction warnings so you know where a response will work
+- **Bug reports**, **Sync Required** banner, and faster command sync (v1.2.23–1.2.26)
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 

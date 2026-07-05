@@ -4,6 +4,47 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.30] — 2026-07-05
+
+### Added
+- **Clone** button on auto responders — duplicate an existing response with all settings; enter a new trigger keyword to save
+
+### Improved
+- Auto Responder **create / edit / clone** now opens a dedicated full-page editor (no more editing on top of the list)
+- Clearer layout with separate **Trigger**, **Response**, and **Restrictions** sections
+- Channel restriction warnings on the editor and response cards
+
+### Fixed
+- Could accidentally delete a response while the inline edit form was open
+
+---
+
+## [1.2.29] — 2026-07-05
+
+### Improved
+- You can now **rename the trigger keyword** when editing an auto responder (no need to delete and recreate)
+
+---
+
+## [1.2.28] — 2026-07-05
+
+### Fixed
+- Auto responders with **allowed channels** set now work reliably when members type in the correct channel
+- Auto Responder module state is read correctly after dashboard changes
+
+### Improved
+- Dashboard shows which channels an auto responder is limited to
+- Warning when **Allowed channels** is set so it is clear the response only works in selected channels
+
+---
+
+## [1.2.27] — 2026-07-05
+
+### Fixed
+- Auto responder triggers now match when members type optional symbols before the keyword (e.g. `?web`, `/web`, or `web`)
+
+---
+
 ## [1.2.26] — 2026-07-05
 
 ### Fixed
