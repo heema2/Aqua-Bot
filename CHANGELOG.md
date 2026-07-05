@@ -4,6 +4,15 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.32] — 2026-07-05
+
+### Improved
+- **Ticket panel editor** redesigned with the same full-page editor UI as Auto Responder and Welcome
+- Panel embed **colors, links, images, author URLs, and fields** are now preserved when you save and re-open the editor
+- Wider ticket panel layout for easier editing
+
+---
+
 ## [1.2.31] — 2026-07-05
 
 ### Added
