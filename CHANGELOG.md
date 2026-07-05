@@ -4,6 +4,15 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.53] — 2026-07-05
+
+### Fixed
+- **Giveaways** — fixed active giveaways disappearing and "could not be found" errors caused by stale storage writes wiping giveaway data
+- **Invite Tracker** — `{user}`, `{invitername}`, `{totalinvite}`, and other placeholders now resolve correctly in join/leave messages
+- **Stream Alerts** — YouTube thumbnail in dashboard preview no longer broken (inline icon)
+
+---
+
 ## [1.2.52] — 2026-07-05
 
 ### Improved
