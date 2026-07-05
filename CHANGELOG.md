@@ -4,6 +4,19 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.55] — 2026-07-05
+
+### Fixed
+- **Permissions metadata** — corrected declared bot and command permissions across the codebase so they match what Discord actually requires at runtime
+  - `/lock`, `/unlock`, and `/lockdown` now correctly require **Manage Roles** (channel permission overwrites), not Manage Channels
+  - `/slowmode` bot checks include Manage Channels (Discord native slowmode) and Manage Messages (shared/user slowmode)
+  - `/mute` and `/unmute` bot checks include Manage Roles when using a mute role
+  - `/ticket` bot checks include Manage Roles for claim permission updates
+  - `/autodelete` user and bot requirements aligned to Manage Messages
+- **Invite & website copy** — permission descriptions updated to reflect lock/unlock under Manage Roles
+
+---
+
 ## [1.2.54] — 2026-07-05
 
 ### Fixed
