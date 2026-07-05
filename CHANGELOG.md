@@ -4,6 +4,18 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.39] — 2026-07-05
+
+### Fixed
+- **Auto Responder** select menu now works — choosing an option sends the configured bot response ephemerally
+- Only the member who triggered the auto responder can use their select menu; others see "You can't use another member's select menu"
+
+### Changed
+- Select menu options require a **Bot response** field in the auto responder editor
+- **Announcements** dashboard supports buttons only (select menu removed)
+
+---
+
 ## [1.2.38] — 2026-07-05
 
 ### Added
