@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.48] — 2026-07-05
+
+### Fixed
+- **Giveaways** server tag requirement now shows the actual server name and uses “Must use the **ServerName** server tag on your profile.”
+
+---
+
 ## [1.2.47] — 2026-07-05
 
 ### Fixed
