@@ -1,38 +1,79 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Bot" />
-  <img src="https://img.shields.io/badge/Modules-25%2B-0ea5e9?style=for-the-badge" alt="25+ Modules" />
-  <img src="https://img.shields.io/badge/Dashboard-Web-22c55e?style=for-the-badge" alt="Web Dashboard" />
-</p>
+<div align="center">
 
-<h1 align="center">Aqua Bot</h1>
+# 💧 Aqua Bot
 
-<p align="center">
-  <strong>The all-in-one Discord bot with a modern web dashboard.</strong><br />
-  Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate, and more — all in one place.
-</p>
+**The all-in-one Discord bot with a modern web dashboard.**
 
-<p align="center">
-  <a href="https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands"><strong>➕ Invite Aqua Bot</strong></a>
-  &nbsp;•&nbsp;
-  <a href="https://discord.gg/kKaSX5QJwa"><strong>💬 Support Server</strong></a>
-  &nbsp;•&nbsp;
-  <a href="https://www.aqua-bot.xyz/login"><strong>🛠️ Dashboard</strong></a>
-</p>
+Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate, and **25+ modules** — all controlled from one beautiful dashboard.
+
+<br />
+
+[![Version](https://img.shields.io/badge/version-1.2.22-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
+[![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Discord.js](https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.js.org/)
+
+<br />
+
+[**➕ Invite Bot**](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
+&nbsp;•&nbsp;
+[**🛠️ Dashboard**](https://www.aqua-bot.xyz/login)
+&nbsp;•&nbsp;
+[**🌐 Website**](https://www.aqua-bot.xyz)
+&nbsp;•&nbsp;
+[**💬 Support**](https://discord.gg/kKaSX5QJwa)
+
+</div>
 
 ---
 
-> **Note:** This repository is for **public information only** — links, overview, and resources. Aqua Bot source code is **not** open source.
+> **📌 Repository notice**  
+> This repository is a **public information hub** — links, overview, changelog, and resources. Aqua Bot **source code is not open source**.
 
-## Quick links
+---
+
+## 📑 Table of contents
+
+- [What is Aqua Bot?](#-what-is-aqua-bot)
+- [Quick links](#-quick-links)
+- [Features](#-features)
+- [Web dashboard](#-web-dashboard)
+- [Getting started](#-getting-started)
+- [What's new](#-whats-new)
+- [Permissions](#-permissions)
+- [Tech stack](#-tech-stack)
+- [Support & contact](#-support--contact)
+- [Legal](#-legal)
+
+---
+
+## ✨ What is Aqua Bot?
+
+Aqua Bot is a **production-ready Discord management bot** built for server admins who want powerful features without juggling multiple bots.
+
+Configure everything from a **clean, modern web dashboard** — enable modules, set permissions, build welcome messages, tickets, giveaways, and automod rules without digging through slash commands.
 
 | | |
 |---|---|
+| 🧩 **25+ modules** | Moderation, engagement, automation, and utility |
+| 🖥️ **Full dashboard** | Per-server control in your browser |
+| ⚡ **Slash commands** | Modern Discord UX, per-guild command menus |
+| 🔐 **Minimal permissions** | No Administrator required |
+| 🌍 **Multi-language** | Dashboard locales + auto-translate for communities |
+
+---
+
+## 🔗 Quick links
+
+| Resource | URL |
+|----------|-----|
 | ➕ **Invite the bot** | https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands |
 | 🛠️ **Web dashboard** | https://www.aqua-bot.xyz/login |
 | 🌐 **Website** | https://www.aqua-bot.xyz |
 | 📜 **Commands** | https://www.aqua-bot.xyz/commands |
 | 📊 **Status** | https://www.aqua-bot.xyz/status |
-| 🏠 **Servers** | https://www.aqua-bot.xyz/servers |
+| 🏠 **Listed servers** | https://www.aqua-bot.xyz/servers |
 | 💬 **Support server** | https://discord.gg/kKaSX5QJwa |
 | ✉️ **Contact** | aqua-bot@outlook.com |
 | 🔒 **Privacy** | https://www.aqua-bot.xyz/privacy |
@@ -40,100 +81,178 @@
 
 ---
 
-## What is Aqua Bot?
-
-Aqua Bot is a **production-ready Discord management bot** built for server admins who want powerful features without juggling multiple bots. Configure everything from a **clean web dashboard** — enable modules, set permissions, build welcome messages, tickets, giveaways, and automod rules without digging through slash commands.
-
-- **25+ modules** — moderation, engagement, automation, and utility
-- **Full web dashboard** — per-server control in your browser
-- **Slash commands only** — modern Discord UX
-- **No Administrator required** — transparent, minimal permissions
-- **Multi-language support** — dashboard and auto-translate for global communities
-
----
-
-## Features
+## 🚀 Features
 
 ### 🛡️ Moderation & safety
-- Ban, kick, timeout, warn, mute, purge, lockdown
-- Mod cases and audit trails
-- **Automod** — anti-spam, anti-invite, scam detection, profanity filters
-- **Autoban** — account-age and username rules on join
-- Protected roles and moderator management
+
+| Feature | Description |
+|---------|-------------|
+| **Moderation suite** | Ban, kick, timeout, warn, mute, purge, lockdown |
+| **Mod cases** | Full audit trails and mod statistics |
+| **Automod** | Anti-spam, anti-invite, scam detection, profanity filters |
+| **Autoban** | Account-age and username rules on join |
+| **Protected roles** | Prevent moderation against selected roles |
 
 ### 🎫 Community & support
-- **Tickets** — panels, claim/close, transcripts
-- **Suggestions** — voting, filters, DMs
-- **Server logging** — messages, members, roles, voice, moderation
+
+| Feature | Description |
+|---------|-------------|
+| **Tickets** | Panels, claim/close, transcripts, AFK restore |
+| **Suggestions** | Voting, filters, and optional DMs |
+| **Server logging** | Messages, members, roles, voice, moderation events |
+| **Server listing** | Public server directory with admin curation |
 
 ### 🎉 Engagement
-- **Giveaways** — start, end, reroll, pause/resume
-- **Leveling & XP** — leaderboards and role rewards
-- **Reaction roles** — buttons, selects, classic reactions
-- **Starboard** — highlight top messages
-- **Invite tracker** — stats and leaderboards
-- **Booster thanks** — celebrate new boosters
-- **Stream & creator alerts** — YouTube, Twitch, Kick, TikTok
+
+| Feature | Description |
+|---------|-------------|
+| **Giveaways** | Start, end, reroll, pause/resume |
+| **Leveling & XP** | Leaderboards and role rewards |
+| **Reaction roles** | Buttons, selects, and classic reactions |
+| **Starboard** | Highlight top community messages |
+| **Invite tracker** | Stats and leaderboards |
+| **Booster thanks** | Celebrate new server boosters |
+| **Stream alerts** | YouTube, Twitch, Kick, TikTok notifications |
 
 ### ⚙️ Automation & utility
-- **Welcome & announcements** — text or rich embeds
-- **Auto responder** — keyword triggers with variables
-- **Custom commands** — server-defined responses
-- **Scheduled messages** — repeating announcements
-- **Auto translate** — multilingual messages with translation buttons
-- **Auto-delete** — image-only channels, invite/link rules
-- **Tags, polls, reminders, AFK**, and more
+
+| Feature | Description |
+|---------|-------------|
+| **Welcome & announcements** | Text or rich embed builders |
+| **Custom commands** | Server-defined responses with variables |
+| **Scheduled messages** | Repeating channel announcements |
+| **Auto translate** | Multilingual embeds with translation buttons |
+| **Auto-delete & image-only** | Channel hygiene rules |
+| **Auto reaction** | Keyword reactions and announcement packs |
+| **Tags, polls, reminders, AFK** | Everyday server utilities |
 
 ---
 
-## Getting started
+## 🖥️ Web dashboard
 
-1. **Invite Aqua Bot** to your server using the [invite link](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands).
-2. **Open the dashboard** and sign in with Discord.
+The Aqua Bot dashboard gives server admins a **clean, dark-themed interface** to manage everything in one place.
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  Dashboard  │  Per-server sidebar  │  Module pages         │
+├─────────────────────────────────────────────────────────────┤
+│  • Module toggles & command permissions                   │
+│  • Visual message builders (welcome, tickets, alerts)     │
+│  • Automod rules with multi-action support                  │
+│  • Moderation, logging, giveaways, starboard config       │
+│  • Sync Required banner — keeps slash commands up to date   │
+│  • Setup wizard & onboarding checklist                      │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Executive admin panel** (operators only):
+
+- Homepage CMS — hero, features, and site copy
+- Server & user management
+- **Blacklist servers** — instant bot leave + notice embed
+- **Blacklist users** — block commands and dashboard access
+- Update broadcasts to all servers
+- Listed servers curation
+
+---
+
+## 🏁 Getting started
+
+```mermaid
+flowchart LR
+    A["1. Invite Aqua Bot"] --> B["2. Open Dashboard"]
+    B --> C["3. Select Server"]
+    C --> D["4. Enable Modules"]
+    D --> E["5. Configure & Sync"]
+```
+
+1. **[Invite Aqua Bot](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)** to your server.
+2. **[Open the dashboard](https://www.aqua-bot.xyz/login)** and sign in with Discord.
 3. **Select your server** and enable the modules you need.
-4. **Configure** automod, welcome, tickets, leveling, etc. from the dashboard.
-5. **Join the support server** if you need help: https://discord.gg/kKaSX5QJwa
+4. **Configure** automod, welcome, tickets, leveling, and more.
+5. If prompted, click **Sync** to register slash commands with Discord.
+6. **[Join the support server](https://discord.gg/kKaSX5QJwa)** if you need help.
 
 ---
 
-## Permissions
+## 🆕 What's new
 
-The invite link requests only what Aqua Bot needs to function — manage messages, roles, channels, moderation actions, embeds, and slash commands. **Administrator is not required.**
+<details open>
+<summary><strong>Latest — v1.2.22</strong></summary>
+
+<br />
+
+- **Immediate server blacklist enforcement** — bot sends notice and leaves instantly when a server is blacklisted while the bot is present
+- **Sync alert after ban lift** — dashboard shows **Sync Required** when a server is removed from the blacklist so admins can re-sync commands
+- **Bot presence detection fix** — admin panel correctly shows whether the bot is in a server
+- **Account blacklist logout** — blacklisted users can log out and return to the homepage
+- **User blacklist system** — block dashboard access and slash commands with appeal flow
+- **Executive blacklist tabs** — paginated server & user blacklist management
+- **Logout confirmation** — "Are you sure?" prompt before signing out
+
+See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
+
+</details>
 
 ---
 
-## Tech stack (overview)
+## 🔐 Permissions
+
+The invite link requests only what Aqua Bot needs to function:
+
+- Manage messages, roles, channels, and moderation actions
+- Send embeds and use slash commands
+- Read message history and attach files
+
+**Administrator is not required.** Permissions are transparent and documented on the [website](https://www.aqua-bot.xyz).
+
+---
+
+## 🛠️ Tech stack
 
 | Layer | Technology |
-|---|---|
-| Bot | Node.js 20+, Discord.js v14 |
-| Dashboard | Next.js, React, Tailwind CSS |
-| API | Node.js REST API |
-| Commands | Discord slash commands |
+|-------|------------|
+| **Bot** | Node.js 20+, Discord.js v14, slash commands |
+| **Dashboard** | Next.js 14, React 18, Tailwind CSS |
+| **API** | Node.js REST API with Discord OAuth2 |
+| **Storage** | Per-guild JSON (MongoDB optional) |
+| **Process manager** | PM2 (production) |
 
 *This repo does not include source code — it is a public information hub.*
 
 ---
 
-## Support & contact
+## 💬 Support & contact
 
-- **Discord support:** [Aqua's Support Server](https://discord.gg/kKaSX5QJwa)
-- **Email:** aqua-bot@outlook.com
-- **Operator:** Ryuk Developments
+| Channel | Link |
+|---------|------|
+| 💬 **Discord support** | [Aqua's Support Server](https://discord.gg/kKaSX5QJwa) |
+| ✉️ **Email** | aqua-bot@outlook.com |
+| 👤 **Operator** | Ryuk Developments |
 
-For bugs, feature requests, or setup help, please use the support server.
-
----
-
-## Legal
-
-- Privacy Policy: https://www.aqua-bot.xyz/privacy
-- Terms of Use: https://www.aqua-bot.xyz/terms
-
-Aqua Bot is not affiliated with Discord Inc.
+For bugs, feature requests, or setup help, please use the **support server**.
 
 ---
 
-<p align="center">
-  <sub>Built with ❤️ by <strong>Ryuk Developments</strong></sub>
-</p>
+## ⚖️ Legal
+
+- [Privacy Policy](https://www.aqua-bot.xyz/privacy)
+- [Terms of Use](https://www.aqua-bot.xyz/terms)
+
+Aqua Bot is **not affiliated** with Discord Inc.
+
+---
+
+<div align="center">
+
+<br />
+
+**Built with ❤️ by [Ryuk Developments](https://www.aqua-bot.xyz)**
+
+<br />
+
+[![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=flat-square)](https://www.aqua-bot.xyz)
+[![Support](https://img.shields.io/badge/Support-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/kKaSX5QJwa)
+[![Email](https://img.shields.io/badge/Email-aqua--bot%40outlook.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:aqua-bot@outlook.com)
+
+</div>

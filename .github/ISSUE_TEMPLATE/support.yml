@@ -1,0 +1,19 @@
+name: Support request
+description: Redirects to Discord — use the support server for help.
+title: "[Support] "
+labels: ["support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Please use the support server
+
+        This repository is an **information hub only** — we do not track support tickets here.
+
+        **Join [Aqua's Support Server](https://discord.gg/kKaSX5QJwa)** for:
+        - Setup help
+        - Bug reports
+        - Feature requests
+        - Blacklist appeals
+
+        You can also email **aqua-bot@outlook.com**.
