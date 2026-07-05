@@ -4,6 +4,14 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.35] — 2026-07-05
+
+### Fixed
+- **Auto Responder** module toggle no longer flashes disabled on page load
+- Auto Responder module enable/disable now requires **Save changes** like every other section page (no instant save on toggle)
+
+---
+
 ## [1.2.34] — 2026-07-05
 
 ### Fixed
