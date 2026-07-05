@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.56] — 2026-07-05
+
+### Fixed
+- **Permissions metadata** — `/poll` now declares **Add Reactions** for the bot; `/announce` only requires **Mention Everyone** on the `everyone` and `here` subcommands (not on plain `message` or `role` announcements)
+
+---
+
 ## [1.2.55] — 2026-07-05
 
 ### Fixed
