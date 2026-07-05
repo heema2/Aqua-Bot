@@ -4,6 +4,23 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.31] — 2026-07-05
+
+### Added
+- **Mention user** option on join welcome embeds — sends `Welcome @user` above the embed so new members get notified
+- **Ban announcement** moved to the **Autoban** page — configure ban messages where they belong
+- Ban announcements now post automatically when a member is banned
+
+### Improved
+- **Welcome & Announcements** redesigned — dedicated editor for join and leave messages (same style as Auto Responder)
+- **Autoban** page includes a full ban message editor
+- Auto Responder, Welcome, and Autoban editors are **wider** for a better editing experience
+
+### Changed
+- Welcome page now only covers **join** and **leave** messages (ban removed from Welcome)
+
+---
+
 ## [1.2.30] — 2026-07-05
 
 ### Added
