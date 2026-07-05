@@ -4,6 +4,16 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.54] — 2026-07-05
+
+### Fixed
+- **Stream Alerts — Kick** — Kick live detection now uses the official Kick Developer API (`api.kick.com`), which works from VPS hosts where `kick.com/api` was blocked by Cloudflare
+
+### Setup
+- Kick alerts require `KICK_CLIENT_ID` and `KICK_CLIENT_SECRET` in the bot `.env` (Kick Developer app — see https://docs.kick.com/)
+
+---
+
 ## [1.2.53] — 2026-07-05
 
 ### Fixed
