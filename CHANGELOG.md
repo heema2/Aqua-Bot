@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.46] — 2026-07-05
+
+### Added
+- **Leveling** — optional “Mention user in channel” on level-up: pings the member with a custom message (e.g. `{user} Congrats!`) above the embed
+
+---
+
 ## [1.2.45] — 2026-07-05
 
 ### Added
