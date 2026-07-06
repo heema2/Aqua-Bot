@@ -4,6 +4,19 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.57] — 2026-07-06
+
+### Added
+- **`/reset-leveling`** — administrators can wipe all member XP and levels for the server
+- **Dashboard leveling control** — paginated member list (10 per page) with editable XP/level, save, and reset leaderboard with confirmation
+
+### Fixed
+- **Developer commands** — `developerOnly` and `developersOnly` slash commands now sync only to the support/test guild (`DEV_GUILD_ID`), not every server
+- **Booster Thanks embed image** — dashboard and bot now validate Discord-supported image URLs (HTTPS + `.png`/`.jpg`/`.jpeg`/`.gif`/`.webp` or Discord CDN) so test messages show the image correctly
+- **Commands page** — shows corrected bot permissions, including per-subcommand bot permissions where applicable (e.g. `/announce`)
+
+---
+
 ## [1.2.56] — 2026-07-05
 
 ### Fixed
