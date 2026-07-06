@@ -4,6 +4,19 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.58] — 2026-07-06
+
+### Fixed
+- **Leveling reset** — `/reset-leveling` and dashboard reset now correctly await user storage (`listUserIds` was async); reset no longer throws
+- **`/backup` commands** — `list`, `stats`, and `config view` defer before slow work; list/autocomplete use local cache first so Discord no longer times out
+- **Dashboard performance** — skip heavy guild prefetch on read-only API calls; load config sections in parallel; omit full `statistics.members` from config payload; leveling member panel lazy-loads without per-user Discord API calls
+- **Level-up preview** — `{userAvatar}` thumbnail variable resolves in the dashboard preview (no more 404)
+
+### Security
+- Re-verified developer-only commands: blocked in `interactionCreate` for slash commands and autocomplete; `/backup` also checks `isDeveloper` at runtime
+
+---
+
 ## [1.2.57] — 2026-07-06
 
 ### Added
