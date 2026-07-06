@@ -4,6 +4,15 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.59] — 2026-07-06
+
+### Fixed
+- **Dashboard scroll lock** — confirm + success dialogs no longer leave the page unscrollable after leaderboard reset (reference-counted body scroll lock)
+- **Leaderboard reset** — faster reset (guild members only); no duplicate success popups; member list reloads only when expanded
+- **Dashboard saves** — removed redundant full-guild prefetch on every save; logging config updates tolerate missing log keys; API requests time out with a clear message instead of spinning forever
+
+---
+
 ## [1.2.58] — 2026-07-06
 
 ### Fixed
