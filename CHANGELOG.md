@@ -4,6 +4,14 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.60] — 2026-07-06
+
+### Fixed
+- **Dashboard saves (logging, modules, commands)** — audit logging no longer blocks API responses (~40 sequential DB writes per logging save caused 30s+ hangs and 500 errors); audit entries are batched and recorded in the background
+- **Dashboard load speed** — removed heavy statistics blob from config API; command registry only loads for command/module routes
+
+---
+
 ## [1.2.59] — 2026-07-06
 
 ### Fixed
