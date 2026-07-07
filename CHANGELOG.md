@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.63] — 2026-07-07
+
+### Fixed
+- **Suggestion reaction emojis** — ✅ and ❌ are always used when fields are empty or unset; custom emojis apply when changed
+
+---
+
 ## [1.2.62] — 2026-07-07
 
 ### Added
