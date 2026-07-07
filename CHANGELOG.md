@@ -4,6 +4,26 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.62] — 2026-07-07
+
+### Added
+- **Suggestions dashboard** — full embed customization with live preview for posted suggestions and optional private confirmation DMs
+- **Multiple suggestion channels** — configure more than one channel from the dashboard or `/suggestion-setup add`
+- **Custom reaction emojis** — choose upvote/downvote emojis per server
+
+### Changed
+- `/suggestion-setup` now supports `add`, `remove`, and `list` (replacing single `channel` subcommand)
+
+---
+
+## [1.2.61] — 2026-07-06
+
+### Fixed
+- **Module & command saves** — batch storage writes for command states and role rules (one request instead of many); command registry preloads when the API starts so the first save is no longer slow
+- **Leveling member list** — show display name and username above each user ID again (fetched in parallel for the current page only)
+
+---
+
 ## [1.2.60] — 2026-07-06
 
 ### Fixed
