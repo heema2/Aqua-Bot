@@ -4,7 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
-## [1.2.75] — 2026-07-09
+## [1.2.76] — 2026-07-09
+
+### Fixed
+- **Application Panels** — staff review embed editor no longer shows duplicate live previews
+- **Application Panels** — if a review message is deleted, stale pending applications are cleared automatically on re-apply; dashboard **Pending** button on each panel lets staff accept, reject, or remove applications
+
+---
 
 ### Fixed
 - **Application Panels** — new panels ship with default embed title and description; embed builders show placeholders and auto-fill from defaults so saves no longer fail on empty embeds
