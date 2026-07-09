@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.81] — 2026-07-09
+
+### Added
+- **Leveling** — Maki-style level-up cards with member avatar, accent ring, and generated **level X** image; dashboard toggle between **Level card** and **Custom message**, with card text and color controls
+
+---
+
 ## [1.2.80] — 2026-07-09
 
 ### Fixed
