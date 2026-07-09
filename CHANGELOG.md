@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.64] — 2026-07-09
+
+### Fixed
+- **Level-up announcements** — embed no longer drops when "mention user" is enabled; falls back to the default embed if a custom one fails validation; failures are logged instead of silently ignored
+
+---
+
 ## [1.2.63] — 2026-07-07
 
 ### Fixed
