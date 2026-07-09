@@ -169,12 +169,14 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.62</strong></summary>
+<summary><strong>Latest — v1.2.67</strong></summary>
 
 <br />
 
-- **Suggestions** — customize posted embeds, reaction emojis, private DMs, and multiple channels from the dashboard
-- **Live preview** — embed editor with real-time preview for suggestion messages
+- **Giveaway participants** — names and mentions display correctly inside the embed, with username fallback when a mention does not resolve
+- **Faster participants panel** — parallel member lookups and instant loading feedback on large giveaways
+- **Level-up messages** — embed no longer drops when mention-on-level-up is enabled
+- **Suggestions** — full embed customization, multiple channels, and custom reaction emojis from the dashboard
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 
