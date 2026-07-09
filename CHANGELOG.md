@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.66] — 2026-07-09
+
+### Fixed
+- **Giveaway participants embed** — list is back inside the embed (Giveaway Boat style); each entry shows a mention plus display name/username in parentheses as a fallback when the mention does not resolve
+
+---
+
 ## [1.2.65] — 2026-07-09
 
 ### Fixed
