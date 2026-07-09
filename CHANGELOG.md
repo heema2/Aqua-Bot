@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.70] — 2026-07-09
+
+### Fixed
+- **Application Panels** — dashboard layout no longer overflows the content area; modal submit no longer fails with "client is not defined"
+
+---
+
 ## [1.2.69] — 2026-07-09
 
 ### Added
