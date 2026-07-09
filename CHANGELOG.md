@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.78] — 2026-07-09
+
+### Added
+- **Application Panels** — pause or enable each posted panel from its card; the Apply button is disabled/enabled live in Discord without removing the message
+
+---
+
 ## [1.2.77] — 2026-07-09
 
 ### Fixed
