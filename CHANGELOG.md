@@ -4,7 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
-## [1.2.74] — 2026-07-09
+## [1.2.75] — 2026-07-09
+
+### Fixed
+- **Application Panels** — new panels ship with default embed title and description; embed builders show placeholders and auto-fill from defaults so saves no longer fail on empty embeds
+- **Application Panels** — staff review embed title no longer duplicates "Application" (e.g. "New Content Creator Application" instead of "…Application Application")
+
+---
 
 ### Improved
 - **Application Panels** — each panel is now fully self-contained with its own approval channel, granted role, reviewer roles, and notification messages (like Auto Responder). Global settings removed; existing configs are migrated automatically.
