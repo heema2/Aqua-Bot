@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.65] — 2026-07-09
+
+### Fixed
+- **Giveaway participants list** — member names and mentions now display correctly (list moved to message content with resolved usernames; users who left the server show their name instead of a broken ID link)
+
+---
+
 ## [1.2.64] — 2026-07-09
 
 ### Fixed
