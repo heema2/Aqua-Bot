@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.67-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.69-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
@@ -97,6 +97,7 @@ Configure everything from a **clean, modern web dashboard** — enable modules, 
 | Feature | Description |
 |---------|-------------|
 | **Tickets** | Panels, claim/close, transcripts, AFK restore |
+| **Application Panels** | Modal applications with staff Accept/Reject review and role grants |
 | **Suggestions** | Voting, filters, and optional DMs |
 | **Server logging** | Messages, members, roles, voice, moderation events |
 | **Server listing** | Public server directory with admin curation |
@@ -169,10 +170,12 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.67</strong></summary>
+<summary><strong>Latest — v1.2.69</strong></summary>
 
 <br />
 
+- **Application Panels** — post an application embed with Apply button and modal form; staff review in a dedicated channel with Accept/Reject, role assignment, and customizable DMs
+- **Admin update broadcast** — faster loading and clearer progress UI when sending bot updates to servers
 - **Giveaway participants** — names and mentions display correctly inside the embed, with username fallback when a mention does not resolve
 - **Faster participants panel** — parallel member lookups and instant loading feedback on large giveaways
 - **Level-up messages** — embed no longer drops when mention-on-level-up is enabled

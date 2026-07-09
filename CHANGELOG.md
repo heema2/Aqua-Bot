@@ -4,6 +4,20 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.69] — 2026-07-09
+
+### Added
+- **Application Panels** — post an application embed with an Apply button and customizable modal form; staff review submissions in a dedicated channel with Accept/Reject buttons, role assignment on accept, and configurable private messages (content creator applications and other roles)
+
+---
+
+## [1.2.68] — 2026-07-09
+
+### Improved
+- **Admin update broadcast** — faster page load, dedicated progress overlay during sends, and optimized Discord validation
+
+---
+
 ## [1.2.67] — 2026-07-09
 
 ### Fixed
