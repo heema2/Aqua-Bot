@@ -4,7 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
-## [1.2.76] — 2026-07-09
+## [1.2.77] — 2026-07-09
+
+### Fixed
+- **Application Panels** — deleting a panel now removes it from the dashboard (legacy `postedPanel` data no longer resurrects deleted panels)
+- **Application Panels** — default panel name and placeholders changed from "Content Creator" to **Application Panel**; empty state shows a clear **Create your first panel** button
+
+---
 
 ### Fixed
 - **Application Panels** — staff review embed editor no longer shows duplicate live previews
