@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.67] — 2026-07-09
+
+### Fixed
+- **Giveaway participants panel** — faster load and page changes (parallel member lookups, instant defer while fetching names)
+
+---
+
 ## [1.2.66] — 2026-07-09
 
 ### Fixed

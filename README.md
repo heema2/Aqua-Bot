@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.66-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.67-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
