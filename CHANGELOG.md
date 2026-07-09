@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.80] — 2026-07-09
+
+### Fixed
+- **Commands** — full permission metadata audit: hybrid commands (`/ticket`, `/tag`, `/customcommand`) now enforce subcommand permissions centrally; `/moderator` roles grant moderation command access; `/temprole` checks role hierarchy; developer commands hide from non-admins; `/introduction resend` requires Manage Server in the target guild
+
+---
+
 ## [1.2.79] — 2026-07-09
 
 ### Fixed
