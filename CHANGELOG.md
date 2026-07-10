@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.82] — 2026-07-10
+
+### Added
+- **Tickets** — server-wide open ticket limit configurable from the dashboard Limits section (0 = unlimited); users see an ephemeral message when the limit is reached
+
+---
+
 ## [1.2.81] — 2026-07-09
 
 ### Added
