@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.86-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.87-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
@@ -171,15 +171,15 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.86</strong></summary>
+<summary><strong>Latest — v1.2.87</strong></summary>
 
 <br />
 
-- **AFK** — fully **per-server** (no longer global); auto-clear and mention notices run early so other modules cannot skip them
-- **AFK** — dedicated module + dashboard (nickname prefix, mention cooldown, ignore channels/roles), `/afk set|clear|status`
-- **Application Panels** — safer Apply/review embeds; applicant username shown for reviewers
-- **Reaction Roles** — toggle vs one-time claim, upgraded dashboard editor
-- **Tickets** — customizable inside-panel embed, emoji control buttons, server-wide open ticket limit
+- **Dashboard polish** — Logging, Roles, Auto Delete, Slowmode, Image Only, Auto Reaction, Auto Translate, and Scheduled Messages rebuilt for clearer UX
+- **Slowmode** — Discord native + shared + per-user rules from the dashboard (native applies live)
+- **Image Only** — multi-channel, mention warning, auto-delete after delay (default 10s)
+- **Auto Reaction** — multi-channel keyword rules, editable announcement packs, react-to-all option
+- **AFK** — per-server status with early message handling (v1.2.86)
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 

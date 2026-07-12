@@ -4,6 +4,20 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.87] — 2026-07-12
+
+### Improved
+- **Logging** — clearer dashboard layout with toggles, per-category enable/disable, and accurate ignore-role filtering copy; moderation logs honor Logging channel mode and event toggle
+- **Roles & Joinable ranks** — polished dashboard sections; members use `/joinrank` (admin `/joinablerank` / `/autorole`)
+- **Auto Delete** — per-rule enable toggle; dashboard saves no longer wipe pending image-violation timers
+- **Slowmode** — full dashboard rule editor: Discord native (0–21600s), shared, and per-user modes, bypass roles, role filters; Discord native applies live on save
+- **Image Only** — multi-channel selection, custom warn message with user mention, auto-delete after configurable delay (default 10s), restart-safe pending cleanup
+- **Auto Reaction** — multi-channel keyword rules and announcement packs, editable packs, “react to every message” (`matchAll`)
+- **Auto Translate** — clearer split between button messages and auto channels; compose flow language picker
+- **Scheduled Messages** — clearer status (last/next), ChannelSelect, Start waits one full interval
+
+---
+
 ## [1.2.86] — 2026-07-12
 
 ### Fixed
