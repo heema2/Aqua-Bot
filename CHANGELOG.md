@@ -4,6 +4,44 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.86] — 2026-07-12
+
+### Fixed
+- **AFK** — status is now **per-server** (no longer global across all guilds); auto-clear and mention notices run early in message handling so automod/auto-delete/slowmode can no longer skip them
+
+### Improved
+- **AFK** — dedicated module with dashboard settings (nickname `[AFK]` prefix, mention cooldown, ignore channels/roles), `/afk status`, relative “away since” timestamps, and migration from legacy global AFK data
+
+---
+
+## [1.2.85] — 2026-07-11
+
+### Fixed
+- **Application Panels** — fixed Apply button crash (`Cannot read properties of undefined (reading 'description')`) when a panel had incomplete message settings; review embed defaults are now always filled safely
+
+### Improved
+- **Reaction Roles** — dashboard editor rebuilt with the professional full-page editor shell, assignment mode cards, live preview, and clearer panel management
+
+---
+
+## [1.2.84] — 2026-07-10
+
+### Fixed
+- **Application Panels** — review embeds now store and show the applicant’s username and display name beside the mention, and post a resolved user mention so reviewers can always identify applicants even after Discord cache refreshes
+
+### Added
+- **Reaction Roles** — panel assignment mode: **Toggle** (add/remove) or **One-time claim** (ephemeral error if the member already has the role)
+
+---
+
+## [1.2.83] — 2026-07-10
+
+### Added
+- **Tickets** — inside ticket panel embed is customizable from the dashboard panel editor, with live embed preview and static control-button preview
+- **Tickets** — ticket control buttons now show emojis and use order: Claim, Re-name, Move, AFK, Close
+
+---
+
 ## [1.2.82] — 2026-07-10
 
 ### Added
