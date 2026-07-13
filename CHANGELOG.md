@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.90] — 2026-07-13
+
+### Fixed
+- **Stream & Creator Alerts** — selecting notification channels immediately marks the form dirty so the Save bar appears (multi-select, no separate Add step)
+
+---
+
 ## [1.2.89] — 2026-07-13
 
 ### Fixed
