@@ -4,6 +4,18 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.91] — 2026-07-13
+
+### Added
+- **Supporters Rating** — rate supporters with `/rate` (1–5⭐, 24h cooldown), `/supporter-leaderboard` for staff, configurable reset interval, top-rated role + announce channel, dashboard Reset now
+- **Tickets** — multiple panels, each with its own post channel, roles, limits, and appearance (same pattern as application panels)
+
+### Fixed
+- **Dashboard errors** — Discord “Missing Access / Missing Permissions / role hierarchy” failures now show plain-language guidance instead of raw API codes
+- **Stream & Creator Alerts** — same video/live no longer double-posts (claim-on-write + primary-shard-only polling)
+
+---
+
 ## [1.2.90] — 2026-07-13
 
 ### Fixed
