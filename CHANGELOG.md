@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.89] — 2026-07-13
+
+### Fixed
+- **Stream & Creator Alerts** — notification channels no longer disappear after refresh; bot status updates no longer overwrite channels saved from the dashboard (Mongo cache stale-write race)
+
+---
+
 ## [1.2.88] — 2026-07-13
 
 ### Added
