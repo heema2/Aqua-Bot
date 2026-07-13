@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.87-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.88-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
@@ -171,15 +171,13 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.87</strong></summary>
+<summary><strong>Latest — v1.2.88</strong></summary>
 
 <br />
 
-- **Dashboard polish** — Logging, Roles, Auto Delete, Slowmode, Image Only, Auto Reaction, Auto Translate, and Scheduled Messages rebuilt for clearer UX
-- **Slowmode** — Discord native + shared + per-user rules from the dashboard (native applies live)
-- **Image Only** — multi-channel, mention warning, auto-delete after delay (default 10s)
-- **Auto Reaction** — multi-channel keyword rules, editable announcement packs, react-to-all option
-- **AFK** — per-server status with early message handling (v1.2.86)
+- **Vote for Aqua** — Top.gg vote button on `/help`, introduction messages, and `/botinfo`
+- **Website & dashboard** — footer vote link + floating dashboard “Vote for Aqua” badge
+- **Dashboard polish** — Logging, Roles, Slowmode, Image Only, Auto Reaction, and more (v1.2.87)
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 

@@ -4,6 +4,15 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.88] — 2026-07-13
+
+### Added
+- **Top.gg voting** — Vote on Top.gg button on `/help`, introduction join messages, and `/botinfo`
+- **Website** — “Vote for Aqua” link in the site footer (and homepage product links)
+- **Dashboard** — floating “Vote for Aqua” badge (bottom-right, 50% opacity) opens the [Top.gg vote page](https://top.gg/bot/1512880652461150289/vote) in a new tab
+
+---
+
 ## [1.2.87] — 2026-07-12
 
 ### Improved
