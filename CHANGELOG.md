@@ -4,6 +4,15 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.93] — 2026-07-14
+
+### Fixed
+- **Automod actions** — bot only runs the actions selected for that rule (e.g. Anti-Invite set to Delete message no longer times out users via Anti-Spam lockout or stale punishment lists)
+- **Automod rule editor** — **Save rule** persists immediately (the old Done button closed the modal without saving)
+- **Automod** — content rules (invite/links/etc.) run before Anti-Spam; dashboard lists live actions on each rule card
+
+---
+
 ## [1.2.92] — 2026-07-14
 
 ### Fixed
