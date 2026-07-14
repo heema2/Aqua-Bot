@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.97] — 2026-07-14
+
+### Added
+- **Supporters Rating** — configurable `/rate` cooldown on the dashboard (seconds / minutes / hours; default still 24 hours)
+
+---
+
 ## [1.2.96] — 2026-07-14
 
 ### Improved
