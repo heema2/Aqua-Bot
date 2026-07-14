@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.92] — 2026-07-14
+
+### Fixed
+- **Automod** — timeouts/mutes are only claimed after Discord actually applies them (no more “muted” DMs when the member is still chatting); hierarchy + Timeout Members checks; spam soft-lockout keeps deleting/retrying if timeout fails; dashboard timeout duration uses minutes with clearer setup hints
+
+---
+
 ## [1.2.91] — 2026-07-13
 
 ### Added
