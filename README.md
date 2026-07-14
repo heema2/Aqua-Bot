@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.98-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.99-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
@@ -171,12 +171,12 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.98</strong></summary>
+<summary><strong>Latest — v1.2.99</strong></summary>
 
 <br />
 
-- **Supporters Rating math** — votes stack into a true average (max 5.0⭐) with ratings-received count and star-bar visuals
-- **`/rate` cooldown setting** — control wait time from the dashboard (sec / min / hr)
+- **Supporters Rating** — all votes stack into one final average (never overwritten); clear final-score display
+- **`/rate` cooldown setting** — control wait time from the dashboard
 - **`/rank` image card** — avatar, XP bar, level, rank, and message count
 - **`/rate` public success** — channel announcement encourages others to rate
 - **Clearer dashboard errors** — missing permissions / role order explained in plain language
