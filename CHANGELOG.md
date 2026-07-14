@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.95] — 2026-07-14
+
+### Improved
+- **`/rank`** — glossy image rank card (avatar, rank, level, XP bar, total XP, message count) using the same canvas style/colors as level-up cards; falls back to an embed if image generation fails
+
+---
+
 ## [1.2.94] — 2026-07-14
 
 ### Fixed
