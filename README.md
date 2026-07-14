@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.2.95-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.2.96-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
@@ -171,14 +171,14 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.2.95</strong></summary>
+<summary><strong>Latest — v1.2.96</strong></summary>
 
 <br />
 
-- **`/rank` image card** — avatar, XP bar, level, rank, and message count in one glossy card (same style as level-up)
-- **Reliability sweep** — stream/schedule counters preserved on save; safer dashboard drafts; leave-page warning; fresher module enables
-- **Automod A–Z fix** — actions match the dashboard exactly; rule editor **Save rule** is live
-- **Supporters Rating** — `/rate` + period leaderboards, top role + announce channel
+- **`/rate` public success** — channel announcement with rater, score, and supporter’s live standing
+- **`/rank` image card** — avatar, XP bar, level, rank, and message count in one glossy card
+- **Reliability sweep** — stream/schedule counters preserved on save; safer dashboard drafts
+- **Automod A–Z fix** — actions match the dashboard exactly
 - **Clearer dashboard errors** — missing permissions / role order explained in plain language
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).

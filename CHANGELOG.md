@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.96] — 2026-07-14
+
+### Improved
+- **`/rate`** — after picking stars, a **public** channel message announces who rated whom, the star score, and that supporter’s current rank / average / rating count (encourages others to join in)
+
+---
+
 ## [1.2.95] — 2026-07-14
 
 ### Improved
