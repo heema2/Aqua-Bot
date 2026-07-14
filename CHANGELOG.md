@@ -4,6 +4,17 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.94] — 2026-07-14
+
+### Fixed
+- **Stream alerts** — dashboard saves no longer wipe creator live/video tracking IDs (prevents duplicate alerts)
+- **Scheduled messages** — locked claim/send counters; dashboard edits cannot clobber `lastSentAt` / `sentCount`
+- **Invite tracker / Auto-translate** — settings saves no longer overwrite live stats or tracked messages; untrack + stats reset are explicit actions
+- **Automod / Commands / Leveling** — rule Cancel discards; live toggles only write that rule; permissions modal says Close (Save still required); level-up mention edits stay local until Save message
+- **Reliability** — moderation case IDs and command defaults use locked updates; module enable checks refresh faster; leave-page warning when settings are dirty
+
+---
+
 ## [1.2.93] — 2026-07-14
 
 ### Fixed
