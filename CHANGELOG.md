@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.2.98] — 2026-07-14
+
+### Fixed
+- **Supporters Rating** — ratings now **stack** into a running average (1.0–5.0⭐) instead of overwriting the previous vote; leaderboard shows star bar + average + “ratings received”; success embeds use the same star visuals
+
+---
+
 ## [1.2.97] — 2026-07-14
 
 ### Added
