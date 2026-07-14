@@ -4,6 +4,18 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.0] — 2026-07-14
+
+### Changed
+- **Tickets** — removed `/ticket open`; members can only open tickets from a **posted panel** with a configured ticket category
+- **Tickets** — close / claim / AFK / rename / move only work inside the matching active ticket channel
+- **Dashboard** — ticket panels require a category before save/post; clearer copy that slash open is gone
+
+### Fixed
+- **Tickets** — freestyle ticket opens (no panel / no category / channel at guild root) are blocked with clear errors
+
+---
+
 ## [1.2.99] — 2026-07-14
 
 ### Fixed
