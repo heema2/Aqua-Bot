@@ -4,6 +4,16 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.2] — 2026-07-15
+
+### Changed
+- **Admin-only commands** — `/announce`, `/autoban`, `/autorole`, `/tag`, `/autodelete`, `/poll`, `/lock`, `/unlock`, and `/lockdown` now require **Administrator** (hidden from non-admins; moderator-role bypass cannot unlock them)
+
+### Fixed
+- **YouTube stream alerts** — feed titles/dates are parsed per video entry (no more mismatched “old” titles); uploads older than 48h are tracked but never notified; recently seen video IDs are remembered so feed reordering cannot re-alert an older video
+
+---
+
 ## [1.3.1] — 2026-07-15
 
 ### Fixed

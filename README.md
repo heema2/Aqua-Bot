@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.3.1-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.3.2-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
@@ -171,13 +171,13 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.3.1</strong></summary>
+<summary><strong>Latest — v1.3.2</strong></summary>
 
 <br />
 
-- **Stream alerts fixed** — failed Discord posts no longer permanently skip live/upload notifications; safer YouTube / Twitch / Kick detection
-- **Tickets hardened** — `/ticket open` removed; open only from posted panels with a ticket category set
-- **Ticket staff controls** — close / claim / etc. only inside the correct active ticket channel
+- **Admin-only staff commands** — announce, tags, locks, poll, autorole, autoban, and autodelete require Administrator
+- **YouTube alerts fixed** — no more old-video re-alerts when the feed reorders
+- **Stream alerts fixed** — failed Discord posts no longer permanently skip notifications
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 
