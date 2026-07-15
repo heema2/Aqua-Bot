@@ -4,6 +4,21 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.1] — 2026-07-15
+
+### Fixed
+- **Stream & Creator Alerts** — alerts were claimed before Discord send, so failed/silent posts never retried; now roll back and retry until posted
+- **Stream & Creator Alerts** — every shard polls its own guilds (no more primary-shard-only skip when sharding grows)
+- **YouTube live** — falls back to the public `/live` page when the Data API fails/quota errors
+- **Twitch live** — stricter uptime parsing so junk/rate-limit text is not treated as “live”
+- **Kick live** — ignores bogus `0001-01-01` start times on offline payloads
+- **Dashboard** — requires a notification channel when creators are tracked; clearer setup hints
+
+### Improved
+- **Stream alerts** — success/permission-skip logging; already-live creators still alert after being added (video baseline only)
+
+---
+
 ## [1.3.0] — 2026-07-14
 
 ### Changed
