@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.3] — 2026-07-15
+
+### Changed
+- **`/slowmode`** — now requires **Administrator** (same as the other admin-only staff commands)
+
+---
+
 ## [1.3.2] — 2026-07-15
 
 ### Changed
