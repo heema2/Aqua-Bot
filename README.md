@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.3.3-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.3.9-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
@@ -171,13 +171,15 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.3.3</strong></summary>
+<summary><strong>Latest — v1.3.9</strong></summary>
 
 <br />
 
-- **`/slowmode`** is Administrator-only
-- **Admin-only staff commands** — announce, tags, locks, poll, autorole, autoban, and autodelete require Administrator
-- **YouTube alerts fixed** — no more old-video re-alerts when the feed reorders
+- **Faster simple commands** — light config/read commands skip the long “thinking…” spinner unless work is already near Discord’s deadline
+- **Snappier moderation & tickets** — success replies go out after the core action; mod logs, DMs, and transcript delivery continue in the background
+- **Global timeout protection** (v1.3.8) — slash preflight uses memory snapshots; autocomplete always responds within 1.5 seconds
+- **Application panel Apply buttons** open instantly from memory instead of waiting on database reads
+- **Stream alert embeds** show creator channel name in the footer (`Platform • Creator • Stream Alerts`)
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 

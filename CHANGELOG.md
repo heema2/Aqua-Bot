@@ -4,6 +4,58 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.9] — 2026-07-16
+
+### Improved
+- **Faster simple replies** — configuration and light read commands no longer show a long “thinking…” spinner when they finish quickly; they only defer if work is already close to Discord’s 3-second deadline
+- **Moderation feels snappier** — success replies go out right after the action and case are saved; mod-log posts and user DMs continue in the background
+- **Ticket close/claim** — interaction acknowledges after the core close/claim work; transcript delivery and claim announcements no longer hold the reply
+
+---
+
+## [1.3.8] — 2026-07-16
+
+### Fixed
+- **Global interaction preflight** — command permissions, per-server command rules, ignores, ticket staff, and moderator-role checks now use synchronous snapshots instead of waiting on MongoDB before Discord’s 3-second deadline
+- **Remaining command timeouts** — storage-heavy configuration, moderation, ticket, role, tag, and utility commands now defer before slow work while preserving public/private response behavior
+- **Autocomplete reliability** — all autocomplete interactions have a guarded 1.5-second deadline; slow data sources safely return no suggestions instead of timing out or double-responding
+- **Mongo read resilience** — expired cache entries return immediately and refresh in the background; writes still invalidate and re-read authoritative data
+- **Startup safety** — interactions receive an immediate initialization response until all required caches are ready
+
+---
+
+## [1.3.7] — 2026-07-16
+
+### Fixed
+- **Application panels** — Apply buttons now open their modal immediately from an in-memory panel cache instead of waiting on MongoDB; eligibility checks run safely after submission
+- **Component interactions** — ticket modal buttons, help pagination, ratings, reaction roles, translations, auto-responder menus, and modal submissions now acknowledge before storage or Discord API work
+- **Interaction blacklist check** — moved to a periodically refreshed memory cache so a slow database connection cannot consume the 3-second Discord response window
+- **Stale components** — unknown/outdated buttons, menus, and forms now receive a clear private error instead of silently timing out
+
+---
+
+## [1.3.6] — 2026-07-15
+
+### Fixed
+- **Interaction timeouts** — defer before Discord API / heavy work across moderation, tickets, giveaways, roles, announce, and related slash + button/modal flows so actions no longer finish with “The application did not respond”
+- **Reply safety net** — slash commands that forget a final reply now get an error response instead of a silent timeout
+
+---
+
+## [1.3.5] — 2026-07-15
+
+### Improved
+- **Stream alerts embeds** — YouTube, Twitch, and Kick footers now show the creator channel name next to the platform (`YouTube • ChannelName • Stream Alerts`); dashboard live preview matches
+
+---
+
+## [1.3.4] — 2026-07-15
+
+### Fixed
+- **`/role add` / `/role remove`** — defer the interaction before Discord role API calls so the success reply no longer times out as “The application did not respond”
+
+---
+
 ## [1.3.3] — 2026-07-15
 
 ### Changed
