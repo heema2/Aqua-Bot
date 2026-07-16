@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.12] — 2026-07-16
+
+### Improved
+- **`/help`** — simplified to a fast Dyno-style overview embed with link buttons (dashboard, invite, support, vote); removed the command browser dropdown so replies are instant. Full command lists live on the website / dashboard
+
+---
+
 ## [1.3.11] — 2026-07-16
 
 ### Fixed
