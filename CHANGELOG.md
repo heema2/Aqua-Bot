@@ -4,6 +4,14 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.13] — 2026-07-16
+
+### Improved
+- **Auto backup notifications** — each full backup set now sends only **two** developer/channel embeds: one “Backup Started” with the full task/file inventory in a code block, and one “Backup Completed/Failed” with ZIP sizes, upload success/failure, and retention cleanup. Mid-task upload spam removed.
+- **Manual VPS trigger** — create `backups/.run-now` on the server to run a full backup set without disrupting the live bot process
+
+---
+
 ## [1.3.12] — 2026-07-16
 
 ### Improved
