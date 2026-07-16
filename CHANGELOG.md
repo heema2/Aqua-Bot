@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.11] — 2026-07-16
+
+### Fixed
+- **Timeout hardening pass** — ack watchdog now arms at the start of slash handling (covers slow preflight); `/ping` and other heavy read commands (`/case`, `/rate`, `/setup`, invite-tracker, introduction, modlog, botinfo, warnings/history) always defer before Discord/API work
+
+---
+
 ## [1.3.10] — 2026-07-16
 
 ### Fixed
