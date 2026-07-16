@@ -4,6 +4,14 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.10] — 2026-07-16
+
+### Fixed
+- **`/help` timeouts** — command always acknowledges Discord immediately, and help data is built from warm in-memory caches instead of blocking on MongoDB
+- **Selective-defer safety** — auto-ack watchdog now defers mid-flight if a command is still working near Discord’s 3-second deadline (fast replies still skip the thinking spinner)
+
+---
+
 ## [1.3.9] — 2026-07-16
 
 ### Improved
