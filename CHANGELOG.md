@@ -132,7 +132,7 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 ## [1.3.18] - 2026-07-17
 
 ### Added
-- **Automod default settings** — Dyno-style global defaults on the automod dashboard: default log channel, ignored channels, and ignored roles that apply to every built-in and custom rule (per-rule ignored lists are added on top)
+- **Automod default settings** — global defaults on the automod dashboard: default log channel, ignored channels, and ignored roles that apply to every built-in and custom rule (per-rule ignored lists are added on top)
 
 ### Improved
 - **Automod logging** — automod cases respect the **Auto Mod Log** toggle and use the default log channel when set, falling back to the server mod log channel
@@ -188,7 +188,7 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 ## [1.3.12] - 2026-07-16
 
 ### Improved
-- **`/help`** - simplified to a fast Dyno-style overview embed with link buttons (dashboard, invite, support, vote); removed the command browser dropdown so replies are instant. Full command lists live on the website / dashboard
+- **`/help`** - simplified to a fast overview embed with link buttons (dashboard, invite, support, vote); removed the command browser dropdown so replies are instant. Full command lists live on the website / dashboard
 
 ---
 
