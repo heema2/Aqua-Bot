@@ -4,6 +4,20 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.17] - 2026-07-17
+
+### Fixed
+- **Automod cancel editor** — cancelling a builtin rule editor now correctly restores only that rule's snapshot instead of wiping the entire draft (critical refactor regression)
+- **Anti-Mention Spam** — `@everyone` / `@here` mentions now count toward the mention limit (they were previously invisible to the counter)
+- **Anti-Excessive Length** — fires when a message *exceeds* max length, not when it *equals* it (off-by-one corrected)
+- **`/automod set` command** — setting a punishment via slash command now writes both `punishment` and `punishments` so the dashboard and bot read the same value
+- **`/automod view` command** — shows all configured actions (multi-action aware), not just the first stored field
+
+### Improved
+- **Automod cards** — each built-in rule card now shows its key threshold at a glance (spam max/interval, mention max, emoji max, caps %, message length)
+
+---
+
 ## [1.3.16] - 2026-07-17
 
 ### Fixed
