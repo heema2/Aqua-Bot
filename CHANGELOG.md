@@ -4,6 +4,14 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.16] - 2026-07-17
+
+### Fixed
+- **Anti-Spam hidden timeout** — Anti-Spam no longer applies a timeout (via its soft lockout) when timeout is not a selected action. If you pick only "Delete message", offenders are no longer silently muted
+- **Automod rule editor** — the Timeout duration field now appears only when Timeout is actually selected, so the editor matches what the bot will do
+
+---
+
 ## [1.3.15] - 2026-07-17
 
 ### Fixed
