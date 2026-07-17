@@ -4,6 +4,131 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.32] - 2026-07-17
+
+### Improved
+- **YouTube alerts** — the alert embed title (the clickable link) now shows the actual video title instead of a generic "New YouTube upload" label. The dashboard preview matches
+
+---
+
+## [1.3.31] - 2026-07-17
+
+### Fixed
+- **Custom commands** — creating or editing a command while the module is off no longer silently re-enables it; the dashboard now reflects the real module state after every save
+- **Tickets dashboard** — saving no longer shows a success message when the panel message in Discord failed to update; you now get a clear error instead
+- **Application panels** — the save bar now warns when the module is disabled, so you know saved changes will not take effect until it is turned on
+
+---
+
+## [1.3.30] - 2026-07-17
+
+### Fixed
+- **Welcome module** — saving welcome settings from the dashboard no longer force-enables the module behind your back; the toggle you set is the toggle that sticks
+- **Autoban** — turning the module on or off no longer overwrites the separate "Run rules on join" setting
+- **AFK dashboard** — the module toggle now saves to the correct field, so the bot and dashboard always agree on whether AFK is on
+
+### Improved
+- **Dashboard sync speed** — module toggles and config saves from the dashboard now reach the bot within a few seconds (config caches were shortened and storage merges always read fresh data first)
+
+---
+
+## [1.3.29] - 2026-07-17
+
+### Fixed
+- **`/welcome test`** — no longer sends test messages when the welcome module is disabled
+- **Automod bypass** — only members with the Administrator permission or a protected role bypass automod now; Manage Server / Manage Messages alone no longer exempt anyone
+
+### Improved
+- **Module toggles** — automod and welcome checks read fresh module state, so flipping a module on the dashboard applies to the very next message or join
+
+---
+
+## [1.3.28] - 2026-07-17
+
+### Fixed
+- **Ticket Claim button** — disables immediately after a claim instead of staying clickable
+- **Ticket AFK** — returning from AFK properly clears state, so you can go AFK again and staff actions read live ticket status instead of a stale cache
+- **Max tickets** — ghost tickets from deleted channels no longer count toward the open-ticket limit (orphaned tickets are cleaned up automatically)
+- **`/purge`** — now shows "Purging…", waits for deletes to finish, and reports the real number of deleted messages
+
+---
+
+## [1.3.27] - 2026-07-17
+
+### Changed
+- **Storage migration complete** — all data (guilds, users, global settings) now lives in fast local file storage on the bot's server instead of a remote MongoDB database. Every command, button, and dashboard save is noticeably faster
+- **Backups** — data backups now archive the storage folders directly; encrypted Google Drive off-site sync and automatic retention continue to work exactly as before, and restore supports both the new format and older archives
+
+---
+
+## [1.3.26] - 2026-07-17
+
+### Added
+- **Dual storage engine** — the bot can now run on either local file storage or MongoDB, with a one-command migration tool and a developer `/storage` command to inspect the active backend
+
+---
+
+## [1.3.25] - 2026-07-17
+
+### Improved
+- **Background refresh** — consolidated five separate config refresh loops into one shared loop with a concurrency cap, so background syncing no longer competes with live commands and buttons
+
+---
+
+## [1.3.24] - 2026-07-17
+
+### Improved
+- **Tickets, AFK, and Claim speed** — buttons now reply first and finish heavy work (channel setup, permission changes, notices) in the background, ending the long "thinking…" spinner on ticket actions
+
+---
+
+## [1.3.23] - 2026-07-17
+
+### Fixed
+- **Global slowness** — background refresh storms that saturated the database and blocked the bot were removed; startup is interactive within about a second instead of waiting for a full cache warmup
+- **Backups** — backup creation no longer freezes the bot (removed a double data export and reduced compression stalls)
+
+---
+
+## [1.3.22] - 2026-07-17
+
+### Fixed
+- **Automod edit bypass** — edited messages are re-scanned, so posting clean text and editing in an invite or scam link is now caught
+- **Anti-Phishing default** — new default action is delete instead of ban (existing explicit settings are kept)
+
+### Improved
+- **Dashboard validation** — automod numeric fields are clamped to safe ranges and custom regex rules are checked for patterns that could freeze the bot
+- **`/automod` command** — Anti-Links can now be configured from the slash command as well
+
+---
+
+## [1.3.21] - 2026-07-17
+
+### Fixed
+- **Automod reaction time** — automod now runs before AFK, auto-delete, and slowmode handlers instead of waiting behind them; detection dropped from ~8 seconds to under 100ms
+
+---
+
+## [1.3.20] - 2026-07-17
+
+### Improved
+- **Automod punishment speed** — actions (delete, warn, timeout) apply in 1–3 seconds instead of 30+; DMs and mod-log entries are sent in parallel and case writes are batched
+
+---
+
+## [1.3.19] - 2026-07-17
+
+### Fixed
+- **Automod actions vs logs** — warn/timeout/kick/ban are only marked as applied (and logged) after Discord/the case system confirms success. You no longer get mod-log entries or user notices claiming a mute when the timeout never landed
+- **Anti-Spam soft lockout** — lockout (delete + timeout retry) now starts only when the timeout actually applies, not merely when it is configured
+- **Automod member resolution** — fetched members are passed through to punishment so actions are not skipped on partial messages after a restart
+- **Timeout verification** — force-refreshes the member after timeout with short retries so flaky cache does not report a false success or failure
+
+### Improved
+- **Automod notices** — DMs and channel fallback notices list actions that failed (e.g. timeout blocked by role hierarchy) so admins and users see what did not apply
+
+---
+
 ## [1.3.18] - 2026-07-17
 
 ### Added
