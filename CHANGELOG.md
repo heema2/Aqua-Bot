@@ -4,6 +4,16 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.33] - 2026-07-21
+
+### Fixed
+- **Welcome live preview** — `{server}` (and related previews) now show the server you are configuring in the dashboard, not a placeholder Aqua Server name
+
+### Improved
+- **`/leaderboard`** — paginated with Previous / Next buttons (only the command user can use them), shows both a user mention and username on each rank, and resolves member names carefully per page
+
+---
+
 ## [1.3.32] - 2026-07-17
 
 ### Improved
