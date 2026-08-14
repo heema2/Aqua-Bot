@@ -4,6 +4,14 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.34] - 2026-08-14
+
+### Improved
+- **`/lockdown start`** — besides denying Send Messages for @everyone, also denies Send Messages on every **existing role overwrite** already present in each text/announcement channel (no new roles are added). Channels that already had @everyone Send Messages denied are still skipped
+- **`/lockdown end`** — restores each changed role overwrite to its previous Send Messages state (allow / deny / inherit), including legacy lockdowns that only tracked channel IDs
+
+---
+
 ## [1.3.33] - 2026-07-21
 
 ### Fixed

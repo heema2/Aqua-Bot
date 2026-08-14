@@ -8,7 +8,7 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 
 <br />
 
-[![Version](https://img.shields.io/badge/version-1.3.33-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
+[![Version](https://img.shields.io/badge/version-1.3.34-0ea5e9?style=for-the-badge)](https://github.com/heema2/Aqua-Bot)
 [![Discord Bot](https://img.shields.io/badge/Discord-Bot-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1512880652461150289&permissions=1099914800214&scope=bot%20applications.commands)
 [![Dashboard](https://img.shields.io/badge/Web-Dashboard-22c55e?style=for-the-badge&logo=react&logoColor=white)](https://www.aqua-bot.xyz/login)
 [![Website](https://img.shields.io/badge/Website-aqua--bot.xyz-0ea5e9?style=for-the-badge)](https://www.aqua-bot.xyz)
@@ -171,15 +171,15 @@ flowchart LR
 ## 🆕 What's new
 
 <details open>
-<summary><strong>Latest — v1.3.33</strong></summary>
+<summary><strong>Latest — v1.3.34</strong></summary>
 
 <br />
 
+- **`/lockdown`** — locks existing role send permissions in channels too, then restores them cleanly on end
 - **Welcome live preview** — `{server}` now shows the real server name from the dashboard
 - **`/leaderboard`** — Previous/Next buttons (command user only), mention + username on each rank
 - **Massive speed upgrade** — all data moved to fast local file storage; commands, buttons, and dashboard saves respond in milliseconds
 - **Automod** — reacts in under 100ms, punishes in 1–3 seconds, re-scans edited messages, and only admins/protected roles bypass it
-- **Tickets** — claim/AFK buttons respond instantly, ghost tickets no longer block new ones
 
 See the full history in [**CHANGELOG.md**](./CHANGELOG.md).
 
