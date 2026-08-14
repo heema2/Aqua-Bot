@@ -4,6 +4,16 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.35] - 2026-08-14
+
+### Fixed
+- **`/lockdown start`** — no longer silently leaves channels unlocked when channel edits fail. Also removes Send Messages from the server @everyone role so inherited channels lock even if a channel overwrite edit is blocked (Missing Access / Missing Permissions). Explicit @everyone Allow channels that still cannot be edited are listed in the command reply
+
+### Improved
+- Lockdown refreshes the channel list, retries rate limits, verifies @everyone denies, and restores guild @everyone permissions on `/lockdown end`
+
+---
+
 ## [1.3.34] - 2026-08-14
 
 ### Improved
