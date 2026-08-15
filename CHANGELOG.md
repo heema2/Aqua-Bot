@@ -4,6 +4,13 @@ Public-facing release notes for Aqua Bot. For support or questions, visit our [s
 
 ---
 
+## [1.3.36] - 2026-08-15
+
+### Fixed
+- **Automod ignore check** — no longer crashes when a message has no cached channel (partial/uncached messages). Guards missing guild, author, and channel before reading IDs, fetches partial messages on create, and catches automod errors so the message handler keeps running
+
+---
+
 ## [1.3.35] - 2026-08-14
 
 ### Fixed
