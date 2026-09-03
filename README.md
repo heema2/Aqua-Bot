@@ -28,7 +28,8 @@ Moderation, automod, tickets, giveaways, leveling, stream alerts, auto-translate
 ---
 
 > **📌 Repository notice**  
-> This repository is a **public information hub** — links, overview, changelog, and resources. Aqua Bot **source code is not open source**.
+> This repository is a **public information hub** — links, overview, changelog, and resources. Aqua Bot **source code is not open source**.  
+> Studio hub: **[Ryuk-Dev](https://github.com/heema2/Ryuk-Dev)** · Developer Discord: **[Message Ryuk](https://discord.com/users/198843596558958601)**
 
 ---
 
@@ -130,6 +131,19 @@ Configure everything from a **clean, modern web dashboard** — enable modules, 
 
 ---
 
+## 🖼️ Look & feel
+
+<p align="center">
+  <img src="docs/assets/cover.png" alt="Aqua Bot" width="720"/>
+</p>
+<p align="center">
+  <img src="docs/assets/dashboard.png" alt="Dashboard" width="46%"/>
+  &nbsp;
+  <img src="docs/assets/tickets.png" alt="Tickets" width="46%"/>
+</p>
+
+---
+
 ## 🖥️ Web dashboard
 
 The Aqua Bot dashboard gives server admins a **clean, dark-themed interface** to manage everything in one place.
@@ -216,7 +230,9 @@ The invite link requests only what Aqua Bot needs to function:
 
 | Channel | Link |
 |---------|------|
-| 💬 **Discord support** | [Aqua's Support Server](https://discord.gg/kKaSX5QJwa) |
+| 🏠 **Ryuk Developments hub** | [github.com/heema2/Ryuk-Dev](https://github.com/heema2/Ryuk-Dev) |
+| 💬 **Discord (developer)** | [discord.com/users/198843596558958601](https://discord.com/users/198843596558958601) |
+| 💬 **Discord support server** | [Aqua's Support Server](https://discord.gg/kKaSX5QJwa) |
 | ✉️ **Email** | aqua-bot@outlook.com |
 | 👤 **Operator** | Ryuk Developments |
 
@@ -237,7 +253,7 @@ Aqua Bot is **not affiliated** with Discord Inc.
 
 <br />
 
-**Built with ❤️ by [Ryuk Developments](https://www.aqua-bot.xyz)** · Developer: [@heema2](https://github.com/heema2)
+**Built with ❤️ by [Ryuk Developments](https://github.com/heema2/Ryuk-Dev)** · Developer: [@heema2](https://github.com/heema2) · [Discord](https://discord.com/users/198843596558958601)
 
 <br />
 
